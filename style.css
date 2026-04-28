@@ -163,9 +163,32 @@ nav {
     display: flex;
     flex: 1;
     align-items: center;
-    padding: 150px 0; /*image was still too close to the links so I added padding*/
+    padding: 150px 0; /*image was still too close to the links so I added padding; not sure why these elements didn't work right without padding*/
 }
 
 .about-me__img {
     width: 100%
+}
+
+/* TECH STACK */
+
+.language {
+    width: 25%; /*this does a weird thing to the other 3 img's, consecutively smaller*/
+}
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.language__list {
+    display: flex;
+    width: 100%;
 }
