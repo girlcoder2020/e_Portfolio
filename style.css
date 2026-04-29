@@ -216,3 +216,9 @@ nav {
 .language:hover .language__name {
     transform: scale(1);
 }
+
+/* PROJECTS */
+
+.project__img {
+    width: 100%;
+}
